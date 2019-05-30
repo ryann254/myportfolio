@@ -11,7 +11,7 @@
   .btn-line {
     width: 28px;
     height: 3px;
-    background: #fff;
+    background: set-text-color($primary-color);
     margin: 0 0 5px 0;
     @include easeOut;
   }
@@ -120,7 +120,7 @@
     text-transform: uppercase;
     padding: 14px 0;
     font-weight: 415;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
