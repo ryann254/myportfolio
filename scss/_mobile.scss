@@ -78,4 +78,14 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  .boxes {
+    div {
+      padding: 1rem 1.5rem;
+
+      &:hover {
+        padding: 0.3rem 1rem;
+      }
+    }
+  }
 }
